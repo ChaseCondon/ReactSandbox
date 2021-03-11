@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 import './App.css';
 
 function App() {
@@ -7,16 +8,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Chase's React Sandbox Application.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <button type="button" class="btn btn-outline-info btn-lg" data-mdb-ripple-color="dark">
+          Login
+        </button>
       </header>
     </div>
   );
