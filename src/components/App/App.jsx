@@ -11,7 +11,7 @@ function App() {
           You've found Chase Condon's React sandbox. Congrats!
         </p>
         <p>
-          You can look around but all the fun stuff is hidden behind that login button ;D
+          You can look around, but all the fun stuff is hidden behind that login button ;D
         </p>
 
         <button type="button" class="btn btn-outline-info btn-lg" data-mdb-ripple-color="dark">
