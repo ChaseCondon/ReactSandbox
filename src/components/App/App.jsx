@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from '../../logo.svg';
 import 'mdb-react-ui-kit/dist/css/mdb.min.css'
 import './App.css';
 
@@ -8,7 +8,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Chase's React Sandbox Application.
+          You've found Chase Condon's React sandbox. Congrats!
+        </p>
+        <p>
+          You can look around but all the fun stuff is hidden behind that login button ;D
         </p>
 
         <button type="button" class="btn btn-outline-info btn-lg" data-mdb-ripple-color="dark">
